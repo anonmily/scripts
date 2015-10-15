@@ -17,5 +17,4 @@ mkdir /home/deployer
 chown deployer:deployers /home/deployer
 
 # but still need to edit /etc/sudoers and add %deployers ALL=(ALL) ALL
-
-
+echo "%deployers ALL=(ALL:ALL) ALL" >> /etc/sudoers
