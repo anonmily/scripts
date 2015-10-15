@@ -8,3 +8,6 @@ rvm install 2.1.0
 
 #install capistrano
 gem install capistrano
+
+#edit sudoers
+echo "%deployers ALL=(ALL:ALL) ALL" >> /etc/sudoers
