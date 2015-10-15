@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install git
-apt-get install curl
-apt-get install build-essential
+apt-get -y install git
+apt-get -y install build-essential
