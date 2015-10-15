@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apacheuser=$1
-currentuser=$(echo whoami)
+currentuser=$(echo $(whoami))
 
 adduser dev
 groupadd www
