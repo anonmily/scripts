@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# this does not work, do not use this.
 apt-get update
-apt-get -y install git
-apt-get -y install build-essential
+apt-get install git
+apt-get install build-essential
