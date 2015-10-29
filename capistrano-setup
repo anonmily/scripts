@@ -15,7 +15,7 @@ apt-get install ruby-full
 gem install capistrano
 
 #setup users
-useradd -u 12345 -g users -d /home/deployer -s /bin/bash -p $(echo n493Kp71 | openssl passwd -1 -stdin) deployer
+useradd -u 12345 -g users -d /home/deployer -s /bin/bash -p $(echo somepassword | openssl passwd -1 -stdin) deployer
 groupadd deployers
 usermod -a -G deployers deployer
 mkdir /home/deployer
