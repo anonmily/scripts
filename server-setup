@@ -3,7 +3,7 @@
 apacheuser=$1
 currentuser=$(echo $(whoami))
 
-adduser dev
+adduser dev --gecos "DevUser","none","none","none"
 groupadd www
 usermod -a -G www dev
 usermod -a -G www $currentuser
