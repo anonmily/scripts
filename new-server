@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# this does not work, do not use this.
 apt-get -y update
 apt-get -y install git curl build-essential vim
 echo "syntax on" > ~/.vimrc
