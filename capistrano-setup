@@ -9,7 +9,7 @@
 #rvm install 2.1.0
 
 # the easy way
-apt-get install ruby-full
+apt-get -y install ruby-full
 
 #install capistrano
 gem install capistrano
