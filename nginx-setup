@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-apt-get update
-apt-get install nginx
+apt-get -y update
+apt-get -y install curl git build-essential vim nginx
+

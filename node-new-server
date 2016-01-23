@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-apt-get update
-apt-get install git
-apt-get install build-essential
+apt-get -y update
+apt-get -y install git curl build-essential vim
 #curl https://raw.githubusercontent.com/anonmily/scripts/master/new-server | bash
 curl https://raw.githubusercontent.com/anonmily/scripts/master/nvm-node-install | bash
 
