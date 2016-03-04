@@ -1,7 +1,11 @@
 #!/bin/bash
 
-wget http://download.redis.io/releases/redis-3.0.7.tar.gz
-tar -xzf redis-3.0.7.tar.gz
-cd redis-3.0.7
-make redis-cli
-ln -s src/redis-cli /usr/bin/redis-cli
+# the manual way..
+# wget http://download.redis.io/releases/redis-3.0.7.tar.gz
+# tar -xzf redis-3.0.7.tar.gz
+# cd redis-3.0.7
+# make redis-cli
+# ln -s src/redis-cli /usr/bin/redis-cli
+
+# the easier way
+apt-get install -y redis-tools
