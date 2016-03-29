@@ -1,4 +1,4 @@
 # Docker setup - YUM
 
-curl -fsSL https://get.docker.com/ | sh
+yum install docker
 service docker start
