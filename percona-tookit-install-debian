@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget percona.com/get/percona-toolkit.deb
+dpkg -i percona-toolkit.deb
+apt-get install -f percona-toolkit
