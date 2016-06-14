@@ -1,0 +1,5 @@
+apt-get -y update
+apt-get -y install curl vim build-essential ufw mysql-server
+echo "America/Los_Angeles" > /etc/timezone
+dpkg-reconfigure --frontend noninteractive tzdata
+wget -P /tmp/ https://raw.githubusercontent.com/anonmily/conf/master/my.cnf
