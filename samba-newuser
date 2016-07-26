@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Create a system user and a samba user at the same time
+
+username=$1
+password=$2
+adduser $username <<INPUT
+$password
+$password
+$username
+
+
+
+y
+INPUT
+
+(echo $password; echo $password;) | smbpasswd -a $username
