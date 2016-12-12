@@ -8,7 +8,9 @@ apt-get -y install \
   vim \
   python python-pip python-dev \
   build-essential make cmake \
-  openssh-server
+  openssh-server \
+  xsel \
+  ufw
   
 # Python-related
 wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz && \
