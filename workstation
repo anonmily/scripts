@@ -26,6 +26,7 @@ apt-get -y update && \
 apt-get -y install \
   software-properties-common \
   ansible
+# gem install librarian-ansible 
 
 # Install Virtualbox
 echo "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" > /etc/apt/sources.list.d/virtualbox.list && \
